@@ -22,5 +22,8 @@ def myfirstdag():
     def process_files(files):
         for fname in files:
             print(f"Processing file {fname}")
+    
+    files = generate_names()
+    process_files(files)
 
 dag = myfirstdag()
